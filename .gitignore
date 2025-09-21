@@ -18,8 +18,8 @@ dist/
 htmlcov/
 .pytest_cache/
 .mypy_cache/
-.ipynb_checkpoints/
 *.ipynb_checkpoints
 *.log
 *.tmp
-data/processed/tokenized/*.pt
+*.safetensors
+*.pt
