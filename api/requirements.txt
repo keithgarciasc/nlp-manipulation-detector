@@ -1,0 +1,14 @@
+# FastAPI Inference Service Dependencies
+# Python 3.10+
+
+# Core FastAPI dependencies
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.0
+
+# ML/NLP dependencies
+torch==2.7.1
+transformers==4.56.2
+
+# Optional: for better logging and monitoring
+python-multipart==0.0.9  # For form data support if needed
