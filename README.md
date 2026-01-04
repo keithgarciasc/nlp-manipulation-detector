@@ -2,7 +2,7 @@
 title: NLP Content Moderation Service
 emoji: 🔍
 colorFrom: red
-colorTo: orange
+colorTo: yellow
 sdk: docker
 pinned: false
 license: mit
