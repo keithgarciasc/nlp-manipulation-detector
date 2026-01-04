@@ -217,12 +217,12 @@ def main():
         placeholder="Paste a headline or text here...",
         height=150,
         max_chars=MAX_INPUT_LENGTH,
-        help=f"Maximum {MAX_INPUT_LENGTH} characters"
+        help=f"Maximum {MAX_INPUT_LENGTH} characters",
+        key="text_area_widget"
     )
 
     # Update session state when user types
-    if user_input != st.session_state.text_input:
-        st.session_state.text_input = user_input
+    st.session_state.text_input = user_input
 
     # Example buttons (below text input)
     st.caption("Or try an example:")
